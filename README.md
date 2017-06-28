@@ -16,21 +16,21 @@ Bullet Hell es un género de videojuegos en los que el jugador controla un perso
 
 - Existirán al menos tres tipos de enemigos.
 
- - Los enemigos tendrán tres atributos que los diferencien, los principales serán: vida, daño de ataque y armadura.
+ 	- Los enemigos tendrán tres atributos que los diferencien, los principales serán: vida, daño de ataque y armadura.
 
 - Existirán tres tipos de armas.
 
- - El daño que pueden infligir será lo que las diferencie.
+	- El daño que pueden infligir será lo que las diferencie.
 
- - Dado que el el arma 1 es la que posee el menor daño esta tendrá la posibilidad de infligir daño crítico (de forma aleatoria ) por encima o debajo del daño del arma 2. Esto con el objetivo de que ambas armas sean utilizadas.
+ 	- Dado que el el arma 1 es la que posee el menor daño esta tendrá la posibilidad de infligir daño crítico (de forma aleatoria ) por encima o debajo del daño del arma 2. Esto con el objetivo de que ambas armas sean utilizadas.
 
- - En todo momento se tendrá a disposición el arma 1 y el arma 2; el arma 3 que es la más potente tendrá un tiempo de recarga para volver a ser utilizada.
+ 	- En todo momento se tendrá a disposición el arma 1 y el arma 2; el arma 3 que es la más potente tendrá un tiempo de recarga para volver a ser utilizada.
 
 - Estarán presentes los siguientes contadores:
 
- - Contador de tiempo transcurrido.
- - Contador de puntuación actual.
- - Contador de puntuación más alta de la sesión de juego.
+ 	- Contador de tiempo transcurrido.
+ 	- Contador de puntuación actual.
+ 	- Contador de puntuación más alta de la sesión de juego.
 
 ### Observaciones
 
