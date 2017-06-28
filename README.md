@@ -6,7 +6,7 @@ Bullet Hell es un género de videojuegos en los que el jugador controla un perso
 - *Multi-directional shooter*: el protagonista puede rotar y moverse en cualquier dirección.
 
 
-###Características del juego
+### Características del juego
 
 - El protagonista se encontrará en el centro del área de juego y podrá girar sobre su propio eje trescientos sesenta grados.
 
@@ -32,13 +32,13 @@ Bullet Hell es un género de videojuegos en los que el jugador controla un perso
  - Contador de puntuación actual.
  - Contador de puntuación más alta de la sesión de juego.
 
-###Observaciones
+### Observaciones
 
 - El juego correrá en la plataforma Android.
 
 - Se busca que el jugador adquiera una capacidad de coordinación entre el disparar y la selección de armas.
 
-###Interfaz Gráfica
+### Interfaz Gráfica
 
 **Pendiente dibujo preliminar**
 
