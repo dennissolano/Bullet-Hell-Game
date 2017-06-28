@@ -22,9 +22,9 @@ Bullet Hell es un shooter en primera persona, es decir, es un videojuego de un g
 
 	- El daño que pueden infligir y las municiones será lo que las diferencie.
 
- 		- Dado que el el arma 1 es la que posee el menor daño esta tendrá la posibilidad de infligir daño crítico (de forma aleatoria ) por encima o debajo del daño del arma 2. Esto con el objetivo de que ambas armas sean utilizadas. Además el arma 1 contará con municiones infinitas.
+ 	   - Dado que el el arma 1 es la que posee el menor daño esta tendrá la posibilidad de infligir daño crítico (de forma aleatoria ) por encima o debajo del daño del arma 2. Esto con el objetivo de que ambas armas sean utilizadas. Además el arma 1 contará con municiones infinitas.
 
- 		- La segunda arma inflingirá un poco más de daño que el arma 1 bajo circunstancias normales (es decir, que el arma 1 no acerte un golpe crítico). Pero al hacer más daño, esta contará con una cantidad limitada de balas.
+ 		- La segunda arma infligirá un poco más de daño que el arma 1 bajo circunstancias normales (es decir, que el arma 1 no acerte un golpe crítico). Pero al hacer más daño, esta contará con una cantidad limitada de balas.
 
  		- En todo momento se tendrá a disposición el arma 1 y el arma 2; el arma 3 que es la más potente tendrá un tiempo de recarga para volver a ser utilizada y contará con menos municiones que el arma 2.
 
@@ -36,10 +36,10 @@ Bullet Hell es un shooter en primera persona, es decir, es un videojuego de un g
 
 - Beneficios para el jugador:
 
-    - Para mejorar la experiencia se dará al jugador posiblidad de curarse y conseguir mas municiones durante la partida asesinando objetivos.
+    - Para mejorar la experiencia se dará al jugador posibilidad de curarse y conseguir mas municiones durante la partida asesinando objetivos.
 
-    	- Se dará un 1% de probabilidades de que uno de los enemigos que está emergiendo sea un obetivo especial, lucirá exactamente como los demás pero si este es asesinado, otorga 10% de curación al jugador.
-    	- Existe un 2% de probablidades de que alguno de los enemigos emergentes otorgue municiones para el arma de nivel 2.
+    	- Se dará un 1% de probabilidades de que uno de los enemigos que está emergiendo sea un objetivo especial, lucirá exactamente como los demás pero si este es asesinado, otorga 10% de curación al jugador.
+    	- Existe un 2% de probabilidades de que alguno de los enemigos emergentes otorgue municiones para el arma de nivel 2.
     	- Finalmente, existe un 0.5% de que uno enemigo emergente otorgue 1 munición para el arma de nivel 3.
 
 ### Observaciones
@@ -47,6 +47,10 @@ Bullet Hell es un shooter en primera persona, es decir, es un videojuego de un g
 - El juego correrá en la plataforma Android.
 
 - Se busca que el jugador adquiera una capacidad de coordinación entre el disparar y la selección de armas.
+
+- ¿Cómo irán apareciendo los enemigos?
+
+	- Básicamente es dependiente del tiempo. Entre más tiempo haya transcurrido aumentará la cantidad de enemigos que aparezcan y la variedad de estos. Para el segundo entregable se utilizará la función identidad y conforme se vaya avanzando se modificará la función.
 
 ### Interfaz Gráfica
 
@@ -66,3 +70,4 @@ Bullet Hell es un shooter en primera persona, es decir, es un videojuego de un g
 
 - Los disparos representados por círculos de distinto tamaño, su circunferencia va a depender del daño que inflija el arma. La trayectoria que siga el proyectil va a ser rectilínea. Hay dos posibilidades de apreciar el disparo: movimiento del proyectil a través del espacio hasta impactar el enemigo o una línea continua que impacte el enemigo y desaparece.
 
+- Para crear el efecto del tiempo de recarga se aplicará al botón del arma 3 un control de opacidad. Cuando el arma sea utilizada la opacidad del botón se establece al 100%, conforme pase el tiempo de recarga va disminuyendo progresivamente la opacidad hasta 0% lo que indica que el arma puede ser utilizada nuevamente.
